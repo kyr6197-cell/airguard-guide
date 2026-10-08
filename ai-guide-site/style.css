@@ -1,0 +1,24 @@
+:root{--fg:#1d2a22;--muted:#5b6b61;--line:#d9e3dc;--accent:#38761d;--bg:#ffffff;--soft:#f3f8f2}
+*{box-sizing:border-box}
+body{margin:0;font-family:"Pretendard","Apple SD Gothic Neo","Malgun Gothic",sans-serif;color:var(--fg);background:var(--bg);line-height:1.75;font-size:17px}
+header{border-bottom:1px solid var(--line);background:var(--soft)}
+.wrap{max-width:860px;margin:0 auto;padding:0 16px}
+header .wrap{display:flex;flex-wrap:wrap;gap:8px 20px;align-items:center;padding-top:14px;padding-bottom:14px}
+header .brand{font-weight:700;color:var(--accent);text-decoration:none;font-size:19px}
+header nav a{color:var(--fg);text-decoration:none;margin-right:14px;font-size:15px}
+main{padding:28px 0 48px}
+h1{font-size:28px;line-height:1.4;margin:0 0 16px}
+h2{font-size:22px;margin:36px 0 12px;color:var(--accent)}
+h3{font-size:18px;margin:24px 0 8px}
+.summary{background:var(--soft);border-left:4px solid var(--accent);padding:14px 18px;margin:0 0 24px}
+table{border-collapse:collapse;width:100%;margin:12px 0 20px;font-size:15px}
+th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+th{background:var(--soft)}
+.tbl{overflow-x:auto}
+.qa dt{font-weight:700;margin-top:16px}
+.qa dd{margin:4px 0 0 0}
+.cta{border:1px solid var(--line);padding:16px 18px;margin:32px 0;background:#fffdf5}
+.src{color:var(--muted);font-size:14px}
+footer{border-top:1px solid var(--line);padding:20px 0;color:var(--muted);font-size:14px}
+a{color:#1a5fb4}
+ul.guide li{margin:6px 0}
